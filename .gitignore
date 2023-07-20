@@ -1,0 +1,4 @@
+# .gitignore : 파일에 적힌 폴더나 파일을 git이 추적하지 않게 m
+build/
+.gradle/
+.idea/
