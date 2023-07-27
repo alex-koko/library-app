@@ -10,6 +10,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
+    open-in-view: false
     properties:
       hibernate:
         show_sql: true
@@ -31,6 +32,7 @@ spring:
     password: "Abcd1234!"
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
+    open-in-view: false
     hibernate:
       ddl-auto: none
     properties:
